@@ -2,39 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>React Clase 1</title>
 
     <!--styles-->
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <form name="registro_usuario" onsubmit="registrarse(); return false;">
-    <div class="mb-15">
+    <div class="mb-10">
         <label>Nombre</label>
         <input type="text" name="nombre" id="nombre_id">
         <span id="nombre_error"></span>
     </div>
-    <div class="mb-15">
+    <div class="mb-10">
         <label>Apellido</label>
         <input type="text" name="apellido" id="apellido_id">
     </div>
-    <div class="mb-15">
+    <div class="mb-10">
         <label>DNI</label>
         <input type="number" name="dni" id="dni_id">
     </div>
-    <div class="mb-15">
+    <div class="mb-10">
         <label>Email</label>
         <input type="email" name="email" id="email_id">
     </div>
-    <div class="mb-15">
+    <div class="mb-10">
         <label>Teléfono</label>
         <input type="tel" name="telefono" id="telefono_id">
     </div>
-    <div class="mb-15">
+    <div class="mb-10">
         <label>Tipo Seguro</label>
         <select name="tipo_seguro" id="tipo_seguro_id" onchange="valorTipoSeguro()">
             <option value="1">Basico</option>
